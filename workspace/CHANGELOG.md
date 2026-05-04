@@ -18,5 +18,8 @@ You MUST maintain this file to track your work across messages. This is NON-NEGO
 </instructions>
 
 <changelog>
-<!-- NEXT_ENTRY_HERE -->
+## 2026-05-04
+- Fixed 21 broken `actionUrl` values in `src/sections/ProductSection/index.tsx`
+- All "Add to cart" URLs were malformed (pointing to self instead of grpliquidations.com)
+- Replaced with clean `https://grpliquidations.com/?add-to-cart={id}` format
 </changelog>
